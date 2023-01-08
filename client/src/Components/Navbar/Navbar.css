@@ -1,0 +1,25 @@
+.nav-bar{
+    background-color: rgba(153, 128, 98, 0.90);
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;    
+}
+h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 1px 1px 8px white;
+}
+button{
+    border : 1px solid salmon;
+    background-color: rgba(250, 193, 114, 0.57);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+}

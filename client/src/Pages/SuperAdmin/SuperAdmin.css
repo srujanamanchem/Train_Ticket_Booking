@@ -1,0 +1,162 @@
+.super-admin-container{
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0px 10px 25px rgba(255 255 255 /65%),
+    0 20px 48px rgb(255 255 255 / 5%),
+    0 1px 4px rgb(255 255 255 / 10%);
+}
+
+@media screen  and (min-width: 767px){
+    .super-admin-container{
+        width: 70%;
+        max-width: 1000px;
+    }
+}
+
+.super-admin-container .rows-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.super-admin-container .rows-form .rows-input{
+   flex-grow:1;
+}
+
+
+.super-admin-container .rows-form .rows-button{
+    margin-left: 20px;
+    padding: 8px 10px;
+    /* background-color: #009dff;
+    border: solid 1px #009dff; */
+    background-image: linear-gradient(to right,#B49275,  #EBA55D );
+    border: 0px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight: 500;
+}
+.super-admin-container form{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.super-admin-container h4,
+.super-admin-container form label h4{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.super-admin-container form label input{
+    padding: 10px;
+    width: 100%;
+    border: solid 1px #0000003e;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.auth-button{
+    margin-top: 15px;
+    padding: 10px 5px;
+    /* background-color: #009dff;
+    border: solid 1px #009dff; */
+    background-image: linear-gradient(to right,#B49275,  #DDc2AB , #FFCC96, #EBA55D );
+    border: 0px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+.auth-button:hover{
+    box-shadow: 0 0 20px inset #B49275;
+  /* background-color: #018ce3; */
+}
+
+.agents-list-container .agent-headings{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.agents-list-container .agent-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(148, 110, 75);
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    overflow-y: scroll;
+
+}
+.agent-container h5{
+    font-weight: 500;
+}
+
+.del-btn{
+    margin-left: 4px;
+    padding: 0px;
+    background:transparent;
+    border:0px;
+    outline: none;
+    cursor: pointer;
+    color: rgb(201, 2, 2);
+}
+.agent-container h5{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.agent-email{
+    width: 35%;
+}
+.agent-seats{
+    color:blue;
+}
+.agent-dob{
+    width: 30px;
+}
+.agent-address{
+    width: 25%;
+    min-width: 40px;
+}
+@media screen and (max-width:767px){
+    .agent-container h5{
+        font-size: 11px;
+        margin: 0px;
+    }
+    .agent-email{
+        width: 20%;
+        /* border: 1px solid red; */
+       overflow: auto;
+    }
+    .agent-seats{
+        width: 8px; 
+        /* border: 1px solid red; */
+    }
+    .agent-dob{
+        width: 30px;
+        /* border: 1px solid red; */
+    }
+    .agent-address{
+        width: 40px;
+    }
+    .agent-mobile{
+        width: 40px;
+    }
+    
+}
